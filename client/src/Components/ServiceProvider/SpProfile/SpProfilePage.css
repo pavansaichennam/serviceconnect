@@ -1,0 +1,26 @@
+/* SpProfilePage.css */
+
+/* Apply basic styling to your main content area */
+.main-content {
+    margin-left: 150px; /* Adjust based on your side navbar width */
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  /* Optional: Add styles for better readability */
+  .main-content h2 {
+    color: #ffffff;
+  }
+  
+  .successMessage {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+  }
+  

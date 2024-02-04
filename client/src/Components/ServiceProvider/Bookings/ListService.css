@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Make sure the body takes the full height */
+  }
+  
+  /* Ensures the container takes full available height and starts at the top */
+  .service-list-container {
+    padding: 0;
+    margin-top: 0; /* Ensures no space above the container */
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height automatically based on content */
+    display: block; /* Ensure it's a block-level element */
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0; /* Ensure the table starts right at the top and left of its container */
+    width: 100%; /* Adjust table width as needed, was previously 40px which is very small */
+    /* Removed height: 5px; since it's likely too small to display any content */
+  }
+  
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    color:black;
+  }
+  
+  th {
+    background-color: #1d5469;
+    color: rgb(255, 255, 255); /* Ensures text color is white for better readability */
+  }
+  
+  button {
+    margin-right: 1px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

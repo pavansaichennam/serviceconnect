@@ -1,0 +1,56 @@
+.adminNav{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1d5469;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navContents{
+
+    position: absolute;
+    height: 26px;
+    left: 42.66%;
+    right: 42.92%;
+    top: calc(50% - 26px/2 + 4px);
+    display: flex;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    box-sizing: border-box;
+    color: aliceblue;
+    
+}
+
+.navLinks{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.profilePhoto, .profileInitials {
+    width: 100px; /* Increased size */
+    height: 50px;
+    border-radius: 200%; /* Circular shape */
+    object-fit: contain;
+    background-color: grey; /* Grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px; /* Adjust for initials */
+    margin-right: 20px; /* Space after the image/initials */
+}
+
+.profilePhoto {
+    border-radius: 800px; /* Increased radius */
+    align-items: left;
+}

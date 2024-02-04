@@ -1,0 +1,14 @@
+/* CstrProfile.css */
+
+/* Apply basic styling to your main content area */
+.main-content {
+    margin-left: 150px; /* Adjust based on your side navbar width */
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  /* Optional: Add styles for better readability */
+  .main-content h2 {
+    color: #ffffff;
+  }
+  

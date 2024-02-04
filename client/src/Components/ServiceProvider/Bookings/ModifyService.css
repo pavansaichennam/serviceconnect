@@ -1,0 +1,39 @@
+/* ModifyService.css */
+
+.modify-service-page {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modify-service-content {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add additional styles as needed */
+  

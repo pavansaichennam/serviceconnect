@@ -1,0 +1,37 @@
+.adminNav{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1d5469;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navContents{
+
+    position: absolute;
+    height: 26px;
+    left: 42.66%;
+    right: 42.92%;
+    top: calc(50% - 26px/2 + 4px);
+    display: flex;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    box-sizing: border-box;
+    color: aliceblue;
+    
+}
+
+.navLinks{
+    margin-left: 20px;
+}

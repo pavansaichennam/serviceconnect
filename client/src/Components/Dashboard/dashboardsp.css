@@ -1,0 +1,10 @@
+/* MiddleContent.css */
+
+/* Apply basic styling to your main content area */
+.main-content {
+    margin-left: 250px; /* Adjust based on your side navbar width */
+    padding: 20px;
+    box-sizing: border-box;
+    color: #000000;
+  }
+  
